@@ -1,0 +1,135 @@
+body {
+  background-color: #FFF;
+  margin: 0;
+  padding: 0;
+}
+
+#doggies-header {
+  background-image: url("./20170208235145.JPG");
+  height: 400px;
+  width: 100%;
+  position: relative;
+  background-attachment: scroll; 
+  background-size: cover;
+  background-position: center center;
+}
+ 
+.doggie-gallery {
+  display: inline-block;
+  float: left;
+  margin: 10px 10px;
+  text-align: center;
+//  width: 30%;
+//  height: 400px;
+} 
+
+#cover {
+
+  background-image: url("./IMG_20170108_123136.jpg");
+/*  background-repeat: no-repeat;
+  background-position: center bottom;*/
+
+  background-size: cover;
+  background-attachment: scroll;  
+  height: 600px;
+  position: relative;
+  /* top: -500px;*/
+  width: 100%;
+}
+
+.navigation {
+  background-color: rgba(255, 255, 255, 1);
+  overflow-y: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 10000;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  color: #14213D;
+  display: inline-block;
+  font-family: 'Abel', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 16px 20px;
+  text-transform: uppercase;
+}
+
+li:hover {
+  background-color: #FFDC9D;
+}
+
+/*
+#liDoggies {
+  color: #FCA311;
+  font-family: 'Amatic SC', cursive;
+  font-size: 32px;
+  padding: 0px 50px;
+}*/
+
+.cover-content {
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 300px;
+  width: 70%;
+}
+
+p {
+  color: #14213D;
+  display: inline-block;
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 20px;
+}
+
+h1 {
+  color: #FFF;
+  font-family: 'Amatic SC', cursive;
+  font-size: 72px;
+  padding: 5px 10px;
+  text-align: center;
+//border: 1px solid #000;
+}
+
+#whatscooking h1 {
+position: relative;
+  color:#14213D;
+//  line-height: 200%;
+margin: 20px;
+  padding: 40px;
+  z-index: 9000;
+top: 50px;
+}
+
+h2 {
+  color: #FFF;
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+}
+
+h3 {
+  color: #14213D;
+  font-family: 'Abel', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: #FCA311;
+  font-family: 'Abel', sans-serif;
+  font-size: 16px;
+  margin: 0px 0px 50px 0px;
+}
